@@ -1,3 +1,17 @@
-*Feb 14 09:40:10.326: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
-*Feb 15 09:40:10.326: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to down
-*Feb 16 09:40:10.326: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet0/1, changed state to up
+*Jan 10 08:27:33.158: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/1, changed state to up
+*Jan 10 08:27:33.397: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/2, changed state to up
+*Jan 10 08:27:34.159: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/1, changed state to up
+*Jan 10 08:27:34.398: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/2, changed state to up
+*Jan 10 08:27:53.134: %SSH-5-ENABLED: SSH 1.99 has been enabl
+*Jan 10 08:27:54.090: %AN-6-AN_ABORTED_BY_CONSOLE_INPUT: Autonomic disabled due to User intervention on console. configure 'autonomic' to enable it.
+*Jan 10 08:28:00.528: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+*Jan 10 08:28:01.530: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+*Jan 10 08:29:08.682: %SYS-5-CONFIG_I: Configured from console by console
+*Jan 10 08:30:17.619: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/24, changed state to up
+*Jan 10 08:30:18.620: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/24, changed state to up
+*Jan 10 08:33:39.019: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/3, changed state to up
+*Jan 10 08:33:40.018: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/3, changed state to up
+*Jan 10 08:35:25.926: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/1, changed state to down
+*Jan 10 08:35:26.927: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/1, changed state to down
+*Jan 10 08:35:34.271: %LINK-3-UPDOWN: Interface GigabitEthernet1/0/1, changed state to up
+*Jan 10 08:35:35.271: %LINEPROTO-5-UPDOWN: Line protocol on Interface GigabitEthernet1/0/1, changed state to up
