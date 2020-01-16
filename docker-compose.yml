@@ -2,6 +2,7 @@ version: '3.2'
 
 services:
   elasticsearch:
+    container_name: elasticsearch
     build:
       context: elasticsearch/
       args:
@@ -25,8 +26,9 @@ services:
       discovery.type: single-node
     networks:
       - elk
-
+      
   logstash:
+    container_name: logstash
     build:
       context: logstash/
       args:
@@ -43,6 +45,8 @@ services:
     ports:
       - "5000:5000"
       - "9600:9600"
+      - "5140:5140"
+      - "5140:5140/udp"
     environment:
       LS_JAVA_OPTS: "-Xmx256m -Xms256m"
     networks:
@@ -51,6 +55,7 @@ services:
       - elasticsearch
 
   kibana:
+    container_name: kibana
     build:
       context: kibana/
       args:
@@ -70,6 +75,5 @@ services:
 networks:
   elk:
     driver: bridge
-
 volumes:
   elasticsearch:
