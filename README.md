@@ -11,7 +11,12 @@ Network topology was built in eve-ng with logging to external server, which in o
 
 GET /ciscolog/_doc/egMPr28B4Tf2r4l9ih0O
 
-### POST vs PUT: POST will create doc with id; PUT will update doc with id that we will specify
+
+### POST vs PUT: 
+* POST will create doc with id 
+* PUT will update doc with id that we will specify
+
+
 #### POST /_index/_type
 #### PUT /_index/_type/_id
 
@@ -30,6 +35,7 @@ POST /ciscolog/_doc
     "log_date" : "Jan 16 15:26:18.723 UTC",
     "type" : "syslog-cisco"
 }
+
 
 ### DELETE /_index/_type/_id
 DELETE /ciscolog/_doc/egMPr28B4Tf2r4l9ih0O
